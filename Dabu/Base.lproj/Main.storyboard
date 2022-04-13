@@ -507,12 +507,18 @@
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="bookmark.fill" catalog="system"/>
                                                 </button>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latest Progress: 88%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bjq-NP-gTL">
-                                                    <rect key="frame" x="190" y="59" width="131" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latest Progress: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bjq-NP-gTL">
+                                                    <rect key="frame" x="190" y="59" width="102.5" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.99215686270000003" green="0.81568627449999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                     <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="75%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzj-au-T3w">
+                                                    <rect key="frame" x="297.5" y="60" width="27.5" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <color key="textColor" red="0.99215686270000003" green="0.81568627449999997" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -520,6 +526,8 @@
                                                 <constraint firstItem="EGc-IZ-YlA" firstAttribute="leading" secondItem="qbK-hl-X1D" secondAttribute="trailing" constant="10" id="3ag-ER-jXD"/>
                                                 <constraint firstItem="qbK-hl-X1D" firstAttribute="leading" secondItem="KYc-8a-j9c" secondAttribute="leadingMargin" constant="10" id="49v-px-AqE"/>
                                                 <constraint firstItem="h4m-5y-YDV" firstAttribute="trailing" secondItem="KYc-8a-j9c" secondAttribute="trailingMargin" constant="10" id="5Vd-3g-c4f"/>
+                                                <constraint firstItem="pzj-au-T3w" firstAttribute="top" secondItem="EGc-IZ-YlA" secondAttribute="bottom" constant="8.5" id="7H1-u7-lXb"/>
+                                                <constraint firstItem="pzj-au-T3w" firstAttribute="leading" secondItem="Bjq-NP-gTL" secondAttribute="trailing" constant="5" id="80e-B3-AqP"/>
                                                 <constraint firstItem="EGc-IZ-YlA" firstAttribute="top" secondItem="KYc-8a-j9c" secondAttribute="topMargin" constant="20" id="93O-Qr-zhk"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="qbK-hl-X1D" secondAttribute="bottom" constant="10" id="DQ4-Qr-zdk"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="EGc-IZ-YlA" secondAttribute="trailing" constant="20" id="IEr-a8-wnw"/>
@@ -686,6 +694,8 @@
                     <navigationItem key="navigationItem" id="kLi-5z-nTX"/>
                     <connections>
                         <outlet property="animeClipsTable" destination="o3o-jg-0ks" id="Qod-yb-qkV"/>
+                        <outlet property="myAnimeDetailRating" destination="wqY-m7-DmU" id="DFs-ho-WlL"/>
+                        <outlet property="myAnimeDetailSynopsis" destination="QMy-Vr-qI2" id="bg1-Mg-uja"/>
                         <outlet property="myAnimeDetailThumbnail" destination="wpH-8C-obu" id="Ovk-mb-wHi"/>
                         <outlet property="myAnimeDetailTitle" destination="WD2-5H-Pj4" id="wSn-XD-Pj8"/>
                     </connections>

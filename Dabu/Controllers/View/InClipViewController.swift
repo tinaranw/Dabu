@@ -22,7 +22,7 @@ class InClipViewController: UIViewController, FloatingPanelControllerDelegate {
           UIDevice.current.setValue(value, forKey: "orientation")
         
         
-        let url = URL(fileURLWithPath: Bundle.main.path(forResource: "gojo", ofType: "mp4")!)
+        let url = URL(fileURLWithPath: Bundle.main.path(forResource: "zenitsu", ofType: "mp4")!)
         player = AVPlayer(url: url)
         avpController.player = player
         avpController.view.frame.size.height =  clipPlayer.frame.size.height

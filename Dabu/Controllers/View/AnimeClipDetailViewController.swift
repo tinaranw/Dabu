@@ -18,6 +18,7 @@ class AnimeClipDetailViewController: UIViewController {
     
     var clip_title: String = ""
     var clip_thumbnail: String = ""
+    var clip_progress: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()

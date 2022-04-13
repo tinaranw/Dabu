@@ -38,13 +38,20 @@ class AnimeDetailViewController: UIViewController, UITableViewDataSource, UITabl
     @IBOutlet weak var animeClipsTable: UITableView!
     var anime_title: String = ""
     var anime_thumbnail: String = ""
+    var anime_synopsis: String = ""
+    var anime_rating: Float = 0.0
 
     @IBOutlet weak var myAnimeDetailThumbnail: UIImageView!
     @IBOutlet weak var myAnimeDetailTitle: UILabel!
+    @IBOutlet weak var myAnimeDetailSynopsis: UILabel!
+    @IBOutlet weak var myAnimeDetailRating: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         myAnimeDetailTitle.text = anime_title
         myAnimeDetailThumbnail.image = UIImage(named: anime_thumbnail)
+        myAnimeDetailSynopsis.text = anime_synopsis
+        myAnimeDetailRating.text = String(anime_rating)
+
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
