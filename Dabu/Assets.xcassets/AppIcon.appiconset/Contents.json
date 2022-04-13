@@ -1,41 +1,49 @@
 {
   "images" : [
     {
+      "filename" : "DABU_LOGO (1) (2) (1) (1) (1) (1).png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "DABU_LOGO (1) (2) (1) (1).png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
+      "filename" : "DABU_LOGO (1) (2) (1) (1) (1).png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
+      "filename" : "DABU_LOGO (1) (2).png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
+      "filename" : "DABU_LOGO (1) (2) (1).png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "DABU_LOGO (1)-1.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
+      "filename" : "DABU_LOGO (1).png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
+      "filename" : "DABU_LOGO.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"

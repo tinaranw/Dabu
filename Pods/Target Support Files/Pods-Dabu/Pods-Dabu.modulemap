@@ -1,0 +1,6 @@
+framework module Pods_Dabu {
+  umbrella header "Pods-Dabu-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
+//  SearchResultViewController.swift
 //  Dabu
 //
-//  Created by Tinara Nathania Wiryonoputro on 04/04/22.
+//  Created by Tinara Nathania Wiryonoputro on 12/04/22.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SearchResultViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
     }
-
+    
 
 }
-

@@ -7,15 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BC5B07F2B545C1855667F36 /* Pods_Dabu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC8FFA39CED680C248E25FC /* Pods_Dabu.framework */; };
+		5B0BFE9527FD731B0030BC6F /* TopAnimeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BFE9427FD731B0030BC6F /* TopAnimeCollectionCell.swift */; };
+		5B0BFE9727FD7D770030BC6F /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BFE9627FD7D770030BC6F /* Anime.swift */; };
+		5B0BFE9927FD7E140030BC6F /* Clips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BFE9827FD7E140030BC6F /* Clips.swift */; };
+		5B0BFE9B27FD8D0C0030BC6F /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BFE9A27FD8D0C0030BC6F /* PresentationController.swift */; };
+		5B0BFE9F27FD942A0030BC6F /* UserProfile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0BFE9E27FD942A0030BC6F /* UserProfile.xib */; };
+		5B0BFEA327FD96AE0030BC6F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BFEA227FD96AE0030BC6F /* UserProfile.swift */; };
+		5B0BFEAD27FED0190030BC6F /* AnimeListCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BFEAC27FED0190030BC6F /* AnimeListCollectionCell.swift */; };
+		5B0BFEB027FED5030030BC6F /* AnimeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0BFEAF27FED5030030BC6F /* AnimeDetailViewController.swift */; };
+		5B26CC7927FC0F1000667152 /* RecommendedCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B26CC7827FC0F1000667152 /* RecommendedCollectionCell.swift */; };
+		5B26CCBB27FC38D800667152 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B26CCBA27FC38D800667152 /* SearchVC.swift */; };
+		5B26CCBD27FC38EC00667152 /* BookmarkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B26CCBC27FC38EC00667152 /* BookmarkVC.swift */; };
+		5BA7C7A32804AF8A00DC3F95 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7C7A22804AF8A00DC3F95 /* ResultViewController.swift */; };
+		5BA7C7AA2805046E00DC3F95 /* CircularProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7C7A92805046E00DC3F95 /* CircularProgressBarView.swift */; };
+		5BA7C7AC2805165400DC3F95 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7C7AB2805165400DC3F95 /* SearchResultViewController.swift */; };
+		5BA7C7AE28051A6F00DC3F95 /* ProgressTrackerBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7C7AD28051A6F00DC3F95 /* ProgressTrackerBarView.swift */; };
+		5BA7C7B028067ECC00DC3F95 /* gojo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7C7AF28067ECC00DC3F95 /* gojo.mp4 */; };
+		5BC183422803FC57008C39A4 /* BookmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC183412803FC57008C39A4 /* BookmarkTableViewCell.swift */; };
+		5BC183442804035D008C39A4 /* AnimeClipDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC183432804035D008C39A4 /* AnimeClipDetailViewController.swift */; };
+		5BC18346280410E9008C39A4 /* AnimeDetailClipsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC18345280410E9008C39A4 /* AnimeDetailClipsTableViewCell.swift */; };
 		5BD6A81227FB2F3900EA2A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A81127FB2F3900EA2A14 /* AppDelegate.swift */; };
 		5BD6A81427FB2F3900EA2A14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A81327FB2F3900EA2A14 /* SceneDelegate.swift */; };
-		5BD6A81627FB2F3900EA2A14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A81527FB2F3900EA2A14 /* ViewController.swift */; };
+		5BD6A81627FB2F3900EA2A14 /* WatchNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A81527FB2F3900EA2A14 /* WatchNow.swift */; };
 		5BD6A81927FB2F3900EA2A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6A81727FB2F3900EA2A14 /* Main.storyboard */; };
 		5BD6A81B27FB2F3A00EA2A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6A81A27FB2F3A00EA2A14 /* Assets.xcassets */; };
 		5BD6A81E27FB2F3A00EA2A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6A81C27FB2F3A00EA2A14 /* LaunchScreen.storyboard */; };
 		5BD6A82927FB2F3A00EA2A14 /* DabuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A82827FB2F3A00EA2A14 /* DabuTests.swift */; };
 		5BD6A83327FB2F3A00EA2A14 /* DabuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A83227FB2F3A00EA2A14 /* DabuUITests.swift */; };
 		5BD6A83527FB2F3A00EA2A14 /* DabuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A83427FB2F3A00EA2A14 /* DabuUITestsLaunchTests.swift */; };
+		5BD6A84627FB4B2C00EA2A14 /* OtherClipsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A84527FB4B2C00EA2A14 /* OtherClipsCollectionCell.swift */; };
+		5BFC283A28048E6A004238DE /* InClipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC283928048E6A004238DE /* InClipViewController.swift */; };
+		5BFC283D28049DD4004238DE /* ClipPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC283C28049DD4004238DE /* ClipPanelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +59,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FDEAD81FDB593558E2E581F /* Pods-Dabu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dabu.release.xcconfig"; path = "Target Support Files/Pods-Dabu/Pods-Dabu.release.xcconfig"; sourceTree = "<group>"; };
+		5B0BFE9427FD731B0030BC6F /* TopAnimeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAnimeCollectionCell.swift; sourceTree = "<group>"; };
+		5B0BFE9627FD7D770030BC6F /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		5B0BFE9827FD7E140030BC6F /* Clips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clips.swift; sourceTree = "<group>"; };
+		5B0BFE9A27FD8D0C0030BC6F /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		5B0BFE9E27FD942A0030BC6F /* UserProfile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserProfile.xib; sourceTree = "<group>"; };
+		5B0BFEA227FD96AE0030BC6F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		5B0BFEAC27FED0190030BC6F /* AnimeListCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListCollectionCell.swift; sourceTree = "<group>"; };
+		5B0BFEAF27FED5030030BC6F /* AnimeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailViewController.swift; sourceTree = "<group>"; };
+		5B26CC7827FC0F1000667152 /* RecommendedCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedCollectionCell.swift; sourceTree = "<group>"; };
+		5B26CCBA27FC38D800667152 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		5B26CCBC27FC38EC00667152 /* BookmarkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkVC.swift; sourceTree = "<group>"; };
+		5BA7C7A22804AF8A00DC3F95 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		5BA7C7A92805046E00DC3F95 /* CircularProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBarView.swift; sourceTree = "<group>"; };
+		5BA7C7AB2805165400DC3F95 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		5BA7C7AD28051A6F00DC3F95 /* ProgressTrackerBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTrackerBarView.swift; sourceTree = "<group>"; };
+		5BA7C7AF28067ECC00DC3F95 /* gojo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = gojo.mp4; path = ../../Assets/video/gojo.mp4; sourceTree = "<group>"; };
+		5BC183412803FC57008C39A4 /* BookmarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewCell.swift; sourceTree = "<group>"; };
+		5BC183432804035D008C39A4 /* AnimeClipDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeClipDetailViewController.swift; sourceTree = "<group>"; };
+		5BC18345280410E9008C39A4 /* AnimeDetailClipsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailClipsTableViewCell.swift; sourceTree = "<group>"; };
 		5BD6A80E27FB2F3900EA2A14 /* Dabu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dabu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD6A81127FB2F3900EA2A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD6A81327FB2F3900EA2A14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BD6A81527FB2F3900EA2A14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BD6A81527FB2F3900EA2A14 /* WatchNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNow.swift; sourceTree = "<group>"; };
 		5BD6A81827FB2F3900EA2A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BD6A81A27FB2F3A00EA2A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BD6A81D27FB2F3A00EA2A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +92,11 @@
 		5BD6A82E27FB2F3A00EA2A14 /* DabuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DabuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD6A83227FB2F3A00EA2A14 /* DabuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DabuUITests.swift; sourceTree = "<group>"; };
 		5BD6A83427FB2F3A00EA2A14 /* DabuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DabuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BD6A84527FB4B2C00EA2A14 /* OtherClipsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherClipsCollectionCell.swift; sourceTree = "<group>"; };
+		5BFC283928048E6A004238DE /* InClipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InClipViewController.swift; sourceTree = "<group>"; };
+		5BFC283C28049DD4004238DE /* ClipPanelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipPanelViewController.swift; sourceTree = "<group>"; };
+		DCC8FFA39CED680C248E25FC /* Pods_Dabu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dabu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE7CE520327C63043401950 /* Pods-Dabu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dabu.debug.xcconfig"; path = "Target Support Files/Pods-Dabu/Pods-Dabu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC5B07F2B545C1855667F36 /* Pods_Dabu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +125,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B0BFEA427FEBB5E0030BC6F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC283B28049DB4004238DE /* Panel */,
+				5BB05465280034DB0073FB67 /* Table View */,
+				5B0BFEAE27FED4D60030BC6F /* View */,
+				5B0BFEA827FEBBCF0030BC6F /* Modal */,
+				5B0BFEA727FEBBBF0030BC6F /* Collection */,
+				5B0BFEA627FEBB960030BC6F /* Tab Bar */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B0BFEA527FEBB6A0030BC6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B0BFE9627FD7D770030BC6F /* Anime.swift */,
+				5B0BFE9827FD7E140030BC6F /* Clips.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B0BFEA627FEBB960030BC6F /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				5BD6A81527FB2F3900EA2A14 /* WatchNow.swift */,
+				5B26CCBA27FC38D800667152 /* SearchVC.swift */,
+				5B26CCBC27FC38EC00667152 /* BookmarkVC.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		5B0BFEA727FEBBBF0030BC6F /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				5BD6A84527FB4B2C00EA2A14 /* OtherClipsCollectionCell.swift */,
+				5B26CC7827FC0F1000667152 /* RecommendedCollectionCell.swift */,
+				5B0BFE9427FD731B0030BC6F /* TopAnimeCollectionCell.swift */,
+				5B0BFEAC27FED0190030BC6F /* AnimeListCollectionCell.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		5B0BFEA827FEBBCF0030BC6F /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				5B0BFEA927FEBBDD0030BC6F /* Profile */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		5B0BFEA927FEBBDD0030BC6F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5B0BFE9A27FD8D0C0030BC6F /* PresentationController.swift */,
+				5B0BFE9E27FD942A0030BC6F /* UserProfile.xib */,
+				5B0BFEA227FD96AE0030BC6F /* UserProfile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5B0BFEAE27FED4D60030BC6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B0BFEAF27FED5030030BC6F /* AnimeDetailViewController.swift */,
+				5BC183432804035D008C39A4 /* AnimeClipDetailViewController.swift */,
+				5BFC283928048E6A004238DE /* InClipViewController.swift */,
+				5BA7C7A22804AF8A00DC3F95 /* ResultViewController.swift */,
+				5BA7C7AB2805165400DC3F95 /* SearchResultViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5BA7C7A62804B53300DC3F95 /* Progress View */ = {
+			isa = PBXGroup;
+			children = (
+				5BA7C7A92805046E00DC3F95 /* CircularProgressBarView.swift */,
+				5BA7C7AD28051A6F00DC3F95 /* ProgressTrackerBarView.swift */,
+			);
+			path = "Progress View";
+			sourceTree = "<group>";
+		};
+		5BB05465280034DB0073FB67 /* Table View */ = {
+			isa = PBXGroup;
+			children = (
+				5BC183412803FC57008C39A4 /* BookmarkTableViewCell.swift */,
+				5BC18345280410E9008C39A4 /* AnimeDetailClipsTableViewCell.swift */,
+			);
+			path = "Table View";
+			sourceTree = "<group>";
+		};
 		5BD6A80527FB2F3900EA2A14 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +223,8 @@
 				5BD6A82727FB2F3A00EA2A14 /* DabuTests */,
 				5BD6A83127FB2F3A00EA2A14 /* DabuUITests */,
 				5BD6A80F27FB2F3900EA2A14 /* Products */,
+				ABE8D99B433FB744DF22F849 /* Pods */,
+				91837C986CF8F56F129750E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +241,12 @@
 		5BD6A81027FB2F3900EA2A14 /* Dabu */ = {
 			isa = PBXGroup;
 			children = (
+				5BA7C7AF28067ECC00DC3F95 /* gojo.mp4 */,
+				5BA7C7A62804B53300DC3F95 /* Progress View */,
+				5B0BFEA527FEBB6A0030BC6F /* Models */,
+				5B0BFEA427FEBB5E0030BC6F /* Controllers */,
 				5BD6A81127FB2F3900EA2A14 /* AppDelegate.swift */,
 				5BD6A81327FB2F3900EA2A14 /* SceneDelegate.swift */,
-				5BD6A81527FB2F3900EA2A14 /* ViewController.swift */,
 				5BD6A81727FB2F3900EA2A14 /* Main.storyboard */,
 				5BD6A81A27FB2F3A00EA2A14 /* Assets.xcassets */,
 				5BD6A81C27FB2F3A00EA2A14 /* LaunchScreen.storyboard */,
@@ -127,6 +272,31 @@
 			path = DabuUITests;
 			sourceTree = "<group>";
 		};
+		5BFC283B28049DB4004238DE /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				5BFC283C28049DD4004238DE /* ClipPanelViewController.swift */,
+			);
+			path = Panel;
+			sourceTree = "<group>";
+		};
+		91837C986CF8F56F129750E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCC8FFA39CED680C248E25FC /* Pods_Dabu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABE8D99B433FB744DF22F849 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBE7CE520327C63043401950 /* Pods-Dabu.debug.xcconfig */,
+				1FDEAD81FDB593558E2E581F /* Pods-Dabu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BD6A83827FB2F3A00EA2A14 /* Build configuration list for PBXNativeTarget "Dabu" */;
 			buildPhases = (
+				E950D77060A599DF0D624DFA /* [CP] Check Pods Manifest.lock */,
 				5BD6A80A27FB2F3900EA2A14 /* Sources */,
 				5BD6A80B27FB2F3900EA2A14 /* Frameworks */,
 				5BD6A80C27FB2F3900EA2A14 /* Resources */,
+				2D7BA56AA9C90F14CDD89DC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +403,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B0BFE9F27FD942A0030BC6F /* UserProfile.xib in Resources */,
 				5BD6A81E27FB2F3A00EA2A14 /* LaunchScreen.storyboard in Resources */,
 				5BD6A81B27FB2F3A00EA2A14 /* Assets.xcassets in Resources */,
+				5BA7C7B028067ECC00DC3F95 /* gojo.mp4 in Resources */,
 				5BD6A81927FB2F3900EA2A14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +427,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D7BA56AA9C90F14CDD89DC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dabu/Pods-Dabu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dabu/Pods-Dabu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dabu/Pods-Dabu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E950D77060A599DF0D624DFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dabu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BD6A80A27FB2F3900EA2A14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BD6A81627FB2F3900EA2A14 /* ViewController.swift in Sources */,
+				5B0BFE9527FD731B0030BC6F /* TopAnimeCollectionCell.swift in Sources */,
+				5B26CCBB27FC38D800667152 /* SearchVC.swift in Sources */,
+				5BC183442804035D008C39A4 /* AnimeClipDetailViewController.swift in Sources */,
+				5BFC283D28049DD4004238DE /* ClipPanelViewController.swift in Sources */,
+				5B26CCBD27FC38EC00667152 /* BookmarkVC.swift in Sources */,
+				5B0BFE9B27FD8D0C0030BC6F /* PresentationController.swift in Sources */,
+				5BFC283A28048E6A004238DE /* InClipViewController.swift in Sources */,
+				5BA7C7AA2805046E00DC3F95 /* CircularProgressBarView.swift in Sources */,
+				5BA7C7AC2805165400DC3F95 /* SearchResultViewController.swift in Sources */,
+				5B0BFEB027FED5030030BC6F /* AnimeDetailViewController.swift in Sources */,
+				5BD6A81627FB2F3900EA2A14 /* WatchNow.swift in Sources */,
 				5BD6A81227FB2F3900EA2A14 /* AppDelegate.swift in Sources */,
+				5BD6A84627FB4B2C00EA2A14 /* OtherClipsCollectionCell.swift in Sources */,
+				5B0BFEAD27FED0190030BC6F /* AnimeListCollectionCell.swift in Sources */,
+				5B26CC7927FC0F1000667152 /* RecommendedCollectionCell.swift in Sources */,
+				5BC18346280410E9008C39A4 /* AnimeDetailClipsTableViewCell.swift in Sources */,
+				5B0BFEA327FD96AE0030BC6F /* UserProfile.swift in Sources */,
+				5BA7C7A32804AF8A00DC3F95 /* ResultViewController.swift in Sources */,
+				5BA7C7AE28051A6F00DC3F95 /* ProgressTrackerBarView.swift in Sources */,
+				5B0BFE9927FD7E140030BC6F /* Clips.swift in Sources */,
 				5BD6A81427FB2F3900EA2A14 /* SceneDelegate.swift in Sources */,
+				5B0BFE9727FD7D770030BC6F /* Anime.swift in Sources */,
+				5BC183422803FC57008C39A4 /* BookmarkTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +670,7 @@
 		};
 		5BD6A83927FB2F3A00EA2A14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE7CE520327C63043401950 /* Pods-Dabu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -441,6 +678,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Dabu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dabu;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -461,6 +699,7 @@
 		};
 		5BD6A83A27FB2F3A00EA2A14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FDEAD81FDB593558E2E581F /* Pods-Dabu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -468,6 +707,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Dabu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dabu;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
