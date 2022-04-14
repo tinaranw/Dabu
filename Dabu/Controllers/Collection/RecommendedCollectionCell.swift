@@ -11,4 +11,5 @@ class RecommendedCollectionCell: UICollectionViewCell {
     
     @IBOutlet weak var myRecommendedAnimeTitle: UILabel!
     @IBOutlet weak var myRecommendedAnimeThumbnails: UIImageView!
+    @IBOutlet weak var myRecommendedOverlay: UIImageView!
 }

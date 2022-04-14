@@ -14,6 +14,7 @@ class AnimeDetailViewController: UIViewController, UITableViewDataSource, UITabl
     
     
     var detail_anime_clips:[Clips]=[
+        Clips(image: "continuewatching", title: "Tanjiro's Tragedy"),
         Clips(image: "tanjiro2", title: "Trainer Sakonji Urokodaki"),
         Clips(image: "tanjiro3", title: "Sabito and Makomo"),
         Clips(image: "tanjiro4", title: "Final Selection"),

@@ -12,4 +12,5 @@ class AnimeListCollectionCell: UICollectionViewCell {
     @IBOutlet weak var myAnimeListTitle: UILabel!
     @IBOutlet weak var myAnimeListThumbnail: UIImageView!
 
+    @IBOutlet weak var myAnimeListOverlay: UIImageView!
 }

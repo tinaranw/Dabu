@@ -12,6 +12,7 @@ class BookmarkTableViewCell: UITableViewCell {
     @IBOutlet weak var bookmarkAnimeClipThumbnail: UIImageView!
     @IBOutlet weak var bookmarkAnimeClipTitle: UILabel!
     
+    @IBOutlet weak var bookmarkAnimeOverlay: UIImageView!
     func hexStringToUIColor (hex:String) -> UIColor {
         var cString:String = hex.trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
 

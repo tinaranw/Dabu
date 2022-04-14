@@ -42,7 +42,8 @@ class BookmarkVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         let cell = bookmarkTable.dequeueReusableCell(withIdentifier: "bookmarkCell", for: indexPath) as! BookmarkTableViewCell
         cell.bookmarkAnimeClipTitle.text = bookmarkAnimeClip.title
         cell.bookmarkAnimeClipThumbnail.image = UIImage(named:bookmarkAnimeClip.image)
-        cell.bookmarkAnimeClipThumbnail.layer.cornerRadius=10.0
+        cell.bookmarkAnimeClipThumbnail.layer.cornerRadius=6.0
+        cell.bookmarkAnimeOverlay.layer.cornerRadius=6.0
         return cell
     }
     

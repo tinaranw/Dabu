@@ -11,4 +11,5 @@ class OtherClipsCollectionCell: UICollectionViewCell {
     @IBOutlet weak var myOtherClipsThumbnails: UIImageView!
     @IBOutlet weak var myOtherClipsTitle: UILabel!
     
+    @IBOutlet weak var myOtherClipsOverlay: UIImageView!
 }

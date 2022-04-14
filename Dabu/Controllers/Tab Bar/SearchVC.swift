@@ -77,7 +77,8 @@ class SearchVC: UIViewController, UICollectionViewDelegate, UICollectionViewData
                 let anime_list = anime_lists[indexPath.row]
                 cell.myAnimeListThumbnail.image = UIImage(named: anime_list.image)
                 cell.myAnimeListTitle.text = anime_list.title
-                cell.myAnimeListThumbnail.layer.cornerRadius=10.0
+                cell.myAnimeListThumbnail.layer.cornerRadius=6.0
+                cell.myAnimeListOverlay.layer.cornerRadius=6.0
                
                 return cell
             }else{
@@ -85,7 +86,8 @@ class SearchVC: UIViewController, UICollectionViewDelegate, UICollectionViewData
                 let top_anime = top_animes[indexPath.row]
                 cell.myTopAnimeThumbnails.image = UIImage(named: top_anime.image)
                 cell.myTopAnimeTitle.text = top_anime.title
-                cell.myTopAnimeThumbnails.layer.cornerRadius=10.0
+                cell.myTopAnimeThumbnails.layer.cornerRadius=6.0
+                cell.myTopAnimeOverlay.layer.cornerRadius=6.0
                 return cell
             }
 

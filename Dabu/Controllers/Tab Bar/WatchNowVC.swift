@@ -42,6 +42,7 @@ class WatchNowVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     @IBOutlet weak var continueWatchingThumbnail: UIImageView!
     
     @IBOutlet weak var profileButton: UIButton!
+    @IBOutlet weak var continueWatchingOverlay: UIImageView!
     
     
     //Interaction
@@ -77,7 +78,8 @@ class WatchNowVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
             let clip = clips[indexPath.row]
                   cell.myOtherClipsThumbnails.image = UIImage(named: clip.image)
                   cell.myOtherClipsTitle.text = clip.title
-            cell.myOtherClipsThumbnails.layer.cornerRadius=10.0
+            cell.myOtherClipsThumbnails.layer.cornerRadius=6.0
+            cell.myOtherClipsOverlay.layer.cornerRadius=6.0
             return cell
             }else{
                 
@@ -85,7 +87,8 @@ class WatchNowVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
                 let anime = animes[indexPath.row]
                 cell.myRecommendedAnimeThumbnails.image = UIImage(named: anime.image)
                 cell.myRecommendedAnimeTitle.text = anime.title
-                cell.myRecommendedAnimeThumbnails.layer.cornerRadius=10.0
+                cell.myRecommendedAnimeThumbnails.layer.cornerRadius=6.0
+                cell.myRecommendedOverlay.layer.cornerRadius=6.00
                 return cell
             }
        
@@ -126,22 +129,19 @@ class WatchNowVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
         //round profile pic
         self.title = "Watch Now"
         let value = UIInterfaceOrientation.portrait.rawValue
-          UIDevice.current.setValue(value, forKey: "orientation")
-
+        UIDevice.current.setValue(value, forKey: "orientation")
+        
         profileButton.layer.cornerRadius = profileButton.frame.width / 2
         profileButton.layer.masksToBounds = true
+        profileButton.setImage(UIImage(named: "profilepic"), for: .normal)
+        
+        
         navigationController?.hidesBarsOnSwipe = false
         self.view.layoutIfNeeded()
-//        self.profilePic.layer.cornerRadius = self.profilePic.frame.width/2.0
-//        self.profilePic.clipsToBounds = true
-//        self.profilePic.layer.masksToBounds = true
-        
-//        profileButton.setImage(UIImage(named: "profilepic"), for: .normal)
-//
-//        profileButton.imageView?.contentMode = .scaleAspectFit
-//        profileButton.frame = CGRect(x: 0, y: 0, width: 44, height: 44)
-//        profileButton.imageEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-        continueWatchingThumbnail.layer.cornerRadius=10.0
+        continueWatchingThumbnail.layer.cornerRadius=6.0
+        continueWatchingThumbnail.layer.masksToBounds = true
+        continueWatchingOverlay.layer.cornerRadius=6.0
+        continueWatchingOverlay.layer.masksToBounds = true
         let tap = UITapGestureRecognizer(target: self, action: #selector(WatchNowVC.tappedMe))
         continueWatchingThumbnail.addGestureRecognizer(tap)
         continueWatchingThumbnail.isUserInteractionEnabled = true
@@ -150,16 +150,10 @@ class WatchNowVC: UIViewController, UICollectionViewDelegate, UICollectionViewDa
     
     @objc
     func tappedMe() {
-        print("Tapped")
-        guard let path = Bundle.main.path(forResource: "animeclip", ofType: "mp4") else {
-            return
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "InClipStoryboard") as? InClipViewController{
+            show(vc, sender: self)
         }
-        let videoURL = URL(string: "animeclip.mp4")
-        let player = AVPlayer(url: videoURL!)
-        let playerLayer = AVPlayerLayer(player: player)
-        playerLayer.frame = self.view.bounds
-        self.view.layer.addSublayer(playerLayer)
-        player.play()
+      
     }
 
 }

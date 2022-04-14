@@ -20,9 +20,10 @@ class InClipViewController: UIViewController, FloatingPanelControllerDelegate {
         super.viewDidAppear(true)
         let value = UIInterfaceOrientation.landscapeRight.rawValue
           UIDevice.current.setValue(value, forKey: "orientation")
+
+        self.tabBarController?.tabBar.isHidden = true
         
-        
-        let url = URL(fileURLWithPath: Bundle.main.path(forResource: "zenitsu", ofType: "mp4")!)
+        let url = URL(fileURLWithPath: Bundle.main.path(forResource: "tanjiro", ofType: "mp4")!)
         player = AVPlayer(url: url)
         avpController.player = player
         avpController.view.frame.size.height =  clipPlayer.frame.size.height

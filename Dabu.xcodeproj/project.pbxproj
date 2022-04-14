@@ -25,12 +25,13 @@
 		5BA7C7AE28051A6F00DC3F95 /* ProgressTrackerBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA7C7AD28051A6F00DC3F95 /* ProgressTrackerBarView.swift */; };
 		5BA7C7B028067ECC00DC3F95 /* gojo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7C7AF28067ECC00DC3F95 /* gojo.mp4 */; };
 		5BA7C7B22806881600DC3F95 /* zenitsu.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7C7B12806881600DC3F95 /* zenitsu.mp4 */; };
+		5BA7C7B42807B05000DC3F95 /* tanjiro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA7C7B32807B05000DC3F95 /* tanjiro.mp4 */; };
 		5BC183422803FC57008C39A4 /* BookmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC183412803FC57008C39A4 /* BookmarkTableViewCell.swift */; };
 		5BC183442804035D008C39A4 /* AnimeClipDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC183432804035D008C39A4 /* AnimeClipDetailViewController.swift */; };
 		5BC18346280410E9008C39A4 /* AnimeDetailClipsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC18345280410E9008C39A4 /* AnimeDetailClipsTableViewCell.swift */; };
 		5BD6A81227FB2F3900EA2A14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A81127FB2F3900EA2A14 /* AppDelegate.swift */; };
 		5BD6A81427FB2F3900EA2A14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A81327FB2F3900EA2A14 /* SceneDelegate.swift */; };
-		5BD6A81627FB2F3900EA2A14 /* WatchNow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A81527FB2F3900EA2A14 /* WatchNow.swift */; };
+		5BD6A81627FB2F3900EA2A14 /* WatchNowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6A81527FB2F3900EA2A14 /* WatchNowVC.swift */; };
 		5BD6A81927FB2F3900EA2A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6A81727FB2F3900EA2A14 /* Main.storyboard */; };
 		5BD6A81B27FB2F3A00EA2A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6A81A27FB2F3A00EA2A14 /* Assets.xcassets */; };
 		5BD6A81E27FB2F3A00EA2A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD6A81C27FB2F3A00EA2A14 /* LaunchScreen.storyboard */; };
@@ -78,13 +79,14 @@
 		5BA7C7AD28051A6F00DC3F95 /* ProgressTrackerBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTrackerBarView.swift; sourceTree = "<group>"; };
 		5BA7C7AF28067ECC00DC3F95 /* gojo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = gojo.mp4; path = ../../Assets/video/gojo.mp4; sourceTree = "<group>"; };
 		5BA7C7B12806881600DC3F95 /* zenitsu.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = zenitsu.mp4; path = ../../../../../../Downloads/zenitsu.mp4; sourceTree = "<group>"; };
+		5BA7C7B32807B05000DC3F95 /* tanjiro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = tanjiro.mp4; path = ../../../../../../Downloads/tanjiro.mp4; sourceTree = "<group>"; };
 		5BC183412803FC57008C39A4 /* BookmarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewCell.swift; sourceTree = "<group>"; };
 		5BC183432804035D008C39A4 /* AnimeClipDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeClipDetailViewController.swift; sourceTree = "<group>"; };
 		5BC18345280410E9008C39A4 /* AnimeDetailClipsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailClipsTableViewCell.swift; sourceTree = "<group>"; };
 		5BD6A80E27FB2F3900EA2A14 /* Dabu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dabu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD6A81127FB2F3900EA2A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD6A81327FB2F3900EA2A14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5BD6A81527FB2F3900EA2A14 /* WatchNow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNow.swift; sourceTree = "<group>"; };
+		5BD6A81527FB2F3900EA2A14 /* WatchNowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchNowVC.swift; sourceTree = "<group>"; };
 		5BD6A81827FB2F3900EA2A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BD6A81A27FB2F3A00EA2A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BD6A81D27FB2F3A00EA2A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -152,7 +154,7 @@
 		5B0BFEA627FEBB960030BC6F /* Tab Bar */ = {
 			isa = PBXGroup;
 			children = (
-				5BD6A81527FB2F3900EA2A14 /* WatchNow.swift */,
+				5BD6A81527FB2F3900EA2A14 /* WatchNowVC.swift */,
 				5B26CCBA27FC38D800667152 /* SearchVC.swift */,
 				5B26CCBC27FC38EC00667152 /* BookmarkVC.swift */,
 			);
@@ -243,6 +245,7 @@
 		5BD6A81027FB2F3900EA2A14 /* Dabu */ = {
 			isa = PBXGroup;
 			children = (
+				5BA7C7B32807B05000DC3F95 /* tanjiro.mp4 */,
 				5BA7C7B12806881600DC3F95 /* zenitsu.mp4 */,
 				5BA7C7AF28067ECC00DC3F95 /* gojo.mp4 */,
 				5BA7C7A62804B53300DC3F95 /* Progress View */,
@@ -412,6 +415,7 @@
 				5BD6A81B27FB2F3A00EA2A14 /* Assets.xcassets in Resources */,
 				5BA7C7B028067ECC00DC3F95 /* gojo.mp4 in Resources */,
 				5BD6A81927FB2F3900EA2A14 /* Main.storyboard in Resources */,
+				5BA7C7B42807B05000DC3F95 /* tanjiro.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +492,7 @@
 				5BA7C7AA2805046E00DC3F95 /* CircularProgressBarView.swift in Sources */,
 				5BA7C7AC2805165400DC3F95 /* SearchResultViewController.swift in Sources */,
 				5B0BFEB027FED5030030BC6F /* AnimeDetailViewController.swift in Sources */,
-				5BD6A81627FB2F3900EA2A14 /* WatchNow.swift in Sources */,
+				5BD6A81627FB2F3900EA2A14 /* WatchNowVC.swift in Sources */,
 				5BD6A81227FB2F3900EA2A14 /* AppDelegate.swift in Sources */,
 				5BD6A84627FB4B2C00EA2A14 /* OtherClipsCollectionCell.swift in Sources */,
 				5B0BFEAD27FED0190030BC6F /* AnimeListCollectionCell.swift in Sources */,
